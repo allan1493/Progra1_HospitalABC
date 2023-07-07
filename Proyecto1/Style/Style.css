@@ -1,0 +1,225 @@
+﻿body {
+    background-image: url('../picture/hospi.jpg');
+    background-size:cover;
+}
+.centrar-elemento {
+    max-width: 470px;
+    margin: -25px 0 0 -25px;
+    background-color: white;
+    padding: 35px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position:absolute;
+    top:36%;
+    left:38%;
+}
+
+.txtClass {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+    .txtClass:hover {
+        background-color: silver;
+    }
+
+
+.h1{
+    font-family:Comic Sans MS;
+}
+.imgInicio {
+    height: 47px;
+    width: 53px;
+    margin-right: 0px;
+}
+.btnButton {
+    width: 50%;
+    padding: 10px;
+    background-color: cornflowerblue;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+   position:absolute;
+   left:25%;
+}
+.estandarTexbox {
+    width: 100%;
+    padding: 9px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+.message-box {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 4px;
+    max-width: 400px;
+    height: 100px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+    .message-box span {
+        padding: 4px;
+    }
+
+.dialog-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Color de fondo con transparencia */
+    backdrop-filter: blur(5px); /* Aplica el desenfoque */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btnMensaje {
+    margin-top: 40px;
+}
+.btnPrin {
+    Width: 243px;
+    padding: 10px;
+    background-color: cornflowerblue;
+    color: black;
+    border: none;
+    border-radius:15px;
+    cursor: pointer;
+}
+.centrar-Arriba {
+    max-width: 370px;
+    margin: -25px 0 0 -25px;
+    padding: 35px;
+    border-radius: 20px;
+    position: absolute;
+    top: 5%;
+    left: 34%;
+}
+
+
+.centrar-Prin {
+    max-width: 370px;
+    margin: -25px 0 0 -25px;
+    padding: 35px;
+    border-radius: 20px;
+    position: absolute;
+    top: 36%;
+    left: 34%;
+}
+.h1Prin{
+    text-align:center;
+}
+
+.container {
+    max-width: 2500px;
+    margin: 100px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.containerTable {
+    max-width: 80%;
+    margin: 100px auto;
+    
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+/*Clases para el mensaje*/
+.message-box {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 4px;
+    max-width: 400px;
+    height: 100px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+    .message-box span {
+        padding: 4px;
+    }
+
+.dialog-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Color de fondo con transparencia */
+    backdrop-filter: blur(5px); /* Aplica el desenfoque */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btnMensaje {
+    margin-top: 40px;
+}
+
+
+
+/*estilo para la tabla*/
+/* Estilo para la tabla principal */
+.gridview {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+    /* Estilo para el encabezado de la tabla */
+    .gridview th {
+        background-color: #f2f2f2;
+        color: #333;
+        font-weight: bold;
+        padding: 8px;
+        border: 1px solid #ddd;
+    }
+
+    /* Estilo para las celdas de datos */
+    .gridview td {
+        padding: 8px;
+        border: 1px solid #ddd;
+    }
+
+    /* Estilo para las filas impares */
+    .gridview tr:nth-child(odd) {
+        background-color: #f9f9f9;
+    }
+
+    /* Estilo para el hover de las filas */
+    .gridview tr:hover {
+        background-color: #eaeaea;
+        font-family: Arial;
+    }
+
+
+/*Estilos para los divs de importar y exportar*/
+.divLeft {
+    float: left;
+    width: 50%;
+}
+
+.divRight {
+    float: right;
+    width: 50%;
+}
+
+
